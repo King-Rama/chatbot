@@ -6,7 +6,9 @@ chatterbot-corpus==1.1.2
 click==8.0.0
 colorama==0.4.4
 decorator==5.0.9
-Django==2.2.7
+dj-database-url==0.5.0
+Django==2.0.6
+django-heroku==0.3.1
 future==0.18.2
 idna==2.10
 ipython==6.4.0
@@ -19,6 +21,7 @@ oauthlib==3.1.0
 parso==0.8.2
 pickleshare==0.7.5
 prompt-toolkit==1.0.18
+psycopg2==2.8.6
 Pygments==2.9.0
 pymongo==3.11.4
 python-dateutil==2.6.1
@@ -35,4 +38,5 @@ tqdm==4.60.0
 traitlets==5.0.5
 urllib3==1.26.4
 wcwidth==0.2.5
+whitenoise==5.2.0
 wincertstore==0.2
